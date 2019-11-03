@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+/*** The Essential Code ***/
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #00000;
+    font-family: "Noto Sans KR", "Liberation Sans", Helvetica, "돋움", dotum, sans-serif;
+    font-size: 1em;
+}
+#wrap {
+    margin: 0 auto;
+    padding: 0;
+    width: 1000px;
+}
+#header {
+    width: 1000px;
+    height: 48px;
+}
+#main-menu {
+    width: 1000px;
+    height: 35px;
+}
+#container {
+	float: left;
+    width: 100%;
+}
+#content {
+    margin-left: 175px;
+    margin-right: 205px;
+}
+#sidebar {
+	float: left;
+    width: 175px;
+    margin-left: -1000px;
+}
+#extra {
+	float: left;
+    width: 205px; 
+    margin-left: -205px;
+}
+#footer {
+	clear: both;
+    width: 1000px;
+    height: 70px;
+}
+/*** Just for Looks ***/
+#header, #footer {
+    font-size: large;
+    text-align: center;
+    background: #999;
+}
+#main-menu {
+    font-size: large;
+    text-align: center;
+    background: #DAEAAA;
+}
+#content {
+    font-size: large;
+    text-align: center;
+    background: #DDD;
+    height: 100px;
+}
+#sidebar {
+    font-size: large;
+    text-align: center;
+    background: #66F;
+    height: 100px;
+}
+#extra {
+    font-size: large;
+    text-align: center;
+    background: #F66;
+    height: 100px;
+}
