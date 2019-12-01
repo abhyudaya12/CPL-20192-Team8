@@ -138,8 +138,7 @@
 			});
 
 			$('#seq').val(arrChk);
-
-			var url = "stock_have_move_ajax.php";
+			var url = "stock_have_move_ajax";
 			var param = $('#frmProc').serialize();
 
 			$.ajax({
@@ -179,7 +178,7 @@
 
 			$('#seq').val($('input[name="chkitem"]:checked').val());
 
-			var url = "stock_goods_modify_ajax.php";
+			var url = "stock_goods_modify_ajax";
 			var param = $('#frmProc').serialize();
 
 			$.ajax({
@@ -329,7 +328,7 @@
 		function getDetailList() {
 			if ($('#detail_serial_no').val() == '') { alert("일련번호를 입력해 주세요"); return false; }
 
-			var url = "stock_detail_list_ajax.php";
+			var url = "stock_detail_list_ajax";
 			var param = {
 				serial_no: $('#detail_serial_no').val()
 			};
@@ -365,7 +364,7 @@
 
 		// 상세팝업 상세정보 검색
 		function getDetailInfo(seq) {
-			var url = "stock_detail_info_ajax.php";
+			var url = "stock_detail_info_ajax";
 			var param = {
 				seq: seq
 			};
