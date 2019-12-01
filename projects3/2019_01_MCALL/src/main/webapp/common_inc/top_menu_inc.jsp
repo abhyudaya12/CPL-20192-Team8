@@ -9,5 +9,6 @@
 		<li class=''><a href=/page/stock/stock>일정</a></li>
 		<li class=''><a href=/page/stock/stock>설정</a></li>
 	</ul>
+	<a href='javascript:doLogout();'>로그인</a>
 	<a href='javascript:doLogout();'>로그아웃</a>
 </div>
